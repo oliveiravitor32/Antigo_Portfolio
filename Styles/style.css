@@ -1,0 +1,106 @@
+
+* {
+    --color-first: #FFFFFF;
+    --color-second: #F7FBFB;
+    --color-third: #212135;
+
+    --color-black-second: #264AA7;
+
+    --font-PressStart2P: 'Press Start 2P', cursive, sans-serif;
+    --font-FiraCode: 'Fira Code', monospace, sans-serif;
+    --font-size: 10;
+}
+
+/*  Header  */
+header {
+    width: 100vw;
+    height: 80px;
+    background-color: var(--color-second);
+
+    border-bottom: 10px solid;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a, .ButtonHeader {
+    color: var(--color-third);
+    text-decoration: none;
+    font-family: var(--font-FiraCode);
+    font-weight: 500;
+    font-size: calc( var(--font-size) * 2) ;
+}
+
+.Logo {
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #525e75;
+    border-radius:5px; 
+}
+
+.Menu {
+    width: 702px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.Menu a::before {
+    content: " ";
+
+    display: inline-block;
+    margin-right: 10px;
+ 
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-black-second);
+}
+
+/* All elements <a>*/
+.Menu > a:hover {
+    cursor: grab;
+}
+
+/* Home */
+
+.Home {
+    height: 797px;
+
+    box-sizing: border-box;
+    padding-top: 116px;
+}
+
+.TitleDiv {
+    width: 627px;
+    height: 184px;
+    font-family: var(--font-PressStart2P);
+    background-color: var(--color-black-second);
+
+    margin-left: 91px;
+    margin-bottom: 38px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+
+    box-shadow: 10px 10px 0px #000000;
+}
+
+.TitleDiv h2 {
+    color: var(--color-third);
+    font-weight: 400;
+    font-size: 30px;
+    text-shadow: 4px 4px 0px #000000;
+}
+
+.Home .ButtonHome:first-of-type {
+    margin-left: 181px;
+    margin-right: 112px;
+}
+

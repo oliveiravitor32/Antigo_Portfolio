@@ -1,0 +1,20 @@
+button {
+    width: 170px;
+    height: 60px;
+
+    font-family: var(--font-FiraCode);
+    font-weight: 500;
+    font-size: 20px;
+
+    background-color: var(--color-first);
+
+    box-shadow: 5px 5px 0 black;
+    padding: 0;
+
+
+}
+button:hover {
+    width: 180px;
+    height: 65px;
+    cursor:grab;
+}
