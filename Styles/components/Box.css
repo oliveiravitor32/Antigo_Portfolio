@@ -1,7 +1,6 @@
 .Box {
     display: inline-block;
-
-    font-family: var(--font-PressStart2P);
+    
     background-color: var(--color-third);
     text-align: center;
 
