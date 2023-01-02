@@ -18,7 +18,13 @@ body {
 /* Home */
 
 .Home {
-    height: 797px;
+    height: 800px;
+
+    background-image: url(../assets/images/Banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    border-bottom: 10px solid #000;
 
     box-sizing: border-box;
     padding-top: 116px;
