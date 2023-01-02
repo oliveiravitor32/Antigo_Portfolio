@@ -1,10 +1,9 @@
 
 * {
     --color-first: #FFFFFF;
-    --color-second: #F7FBFB;
+    --color-second: #C0D6DF;
     --color-third: #212135;
-
-    --color-black-second: #264AA7;
+    --color-fourth: #28666E;
 
     --font-PressStart2P: 'Press Start 2P', cursive, sans-serif;
     --font-FiraCode: 'Fira Code', monospace, sans-serif;
@@ -15,7 +14,7 @@
 header {
     width: 100vw;
     height: 80px;
-    background-color: var(--color-second);
+    background-color: var(--color-first);
 
     border-bottom: 10px solid;
 
@@ -57,7 +56,7 @@ header nav a, .ButtonHeader {
  
     width: 10px;
     height: 10px;
-    background-color: var(--color-black-second);
+    background-color: var(--color-fourth);
 }
 
 /* All elements <a>*/
@@ -78,7 +77,7 @@ header nav a, .ButtonHeader {
     width: 627px;
     height: 184px;
     font-family: var(--font-PressStart2P);
-    background-color: var(--color-black-second);
+    background-color: var(--color-third);
 
     margin-left: 91px;
     margin-bottom: 38px;
@@ -90,13 +89,6 @@ header nav a, .ButtonHeader {
     gap: 28px;
 
     box-shadow: 10px 10px 0px #000000;
-}
-
-.TitleDiv h2 {
-    color: var(--color-third);
-    font-weight: 400;
-    font-size: 30px;
-    text-shadow: 4px 4px 0px #000000;
 }
 
 .Home .ButtonHome:first-of-type {
