@@ -15,17 +15,6 @@ body {
     font-weight: 500;
 }
 
-/*  Header  */
-.Logo {
-    margin-left: 20px;
-    width: 60px;
-    height: 60px;
-    background-color: #525e75;
-    border-radius:5px; 
-}
-
-
-
 /* Home */
 
 .Home {
