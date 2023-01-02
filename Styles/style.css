@@ -73,24 +73,6 @@ header nav a, .ButtonHeader {
     padding-top: 116px;
 }
 
-.TitleDiv {
-    width: 627px;
-    height: 184px;
-    font-family: var(--font-PressStart2P);
-    background-color: var(--color-third);
-
-    margin-left: 91px;
-    margin-bottom: 38px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 28px;
-
-    box-shadow: 10px 10px 0px #000000;
-}
-
 .Home .ButtonHome:first-of-type {
     margin-left: 181px;
     margin-right: 112px;
