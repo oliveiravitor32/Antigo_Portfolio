@@ -1,4 +1,4 @@
-.box {
+.Box {
     display: inline-block;
 
     font-family: var(--font-PressStart2P);
@@ -14,6 +14,6 @@
     box-shadow: 10px 10px 0px #000000;
 }
 
-.box h1 {
+.Box h1 {
     margin-bottom: 28px;
 }

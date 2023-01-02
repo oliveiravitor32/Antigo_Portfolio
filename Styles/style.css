@@ -28,15 +28,6 @@ header {
     justify-content: space-between;
 }
 
-header .Menu a, .ButtonHeader {
-    color: var(--color-third);
-    text-decoration: none;
-    margin-right: 30px;
-   
-    font-weight: 500;
-    font-size: calc(var(--font-size) * 2);
-}
-
 .Logo {
     margin-left: 20px;
     width: 60px;
@@ -51,22 +42,6 @@ header .Menu a, .ButtonHeader {
 
 
     margin-right: 20px;
-}
-
-.Menu a::before {
-    content: " ";
-
-    display: inline-block;
-    margin-right: 10px;
- 
-    width: 10px;
-    height: 10px;
-    background-color: var(--color-fourth);
-}
-
-/* All elements <a>*/
-.Menu > a:hover {
-    cursor: grab;
 }
 
 /* Home */

@@ -1,16 +1,16 @@
-.button {
+.Button {
     display: inline-block;
     padding: 18px 20px;
 
     font-family: var(--font-FiraCode);
-    font-size: 20px;
+    font-size: calc(var(--font-size) * 2);
     background-color: var(--color-first);
 
     box-shadow: 5px 5px 0 black;
     transition: transform 100ms cubic-bezier(.45, .97, .68, 2.48);
 }
 
-.button:hover {
+.Button:hover {
     transform: scale(1.08);
     cursor:grab;
 }
