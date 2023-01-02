@@ -1,0 +1,47 @@
+.SectionSkills {
+    height: 800px;
+    background-color: var(--color-first);
+
+    border-bottom: 10px solid var(--color-third);
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SectionSkills .Title {
+    color: var(--color-third);
+    text-shadow: none;
+
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.SectionSkills .Subtitle {
+    color: var(--color-third);
+    text-shadow: none;
+    font-size: calc(var(--font-size) * 2.5);
+}
+
+.SectionSkills .ContainerListSkills {
+    width: 960px;
+    height: 480px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.SectionSkills .ContainerSkill {
+    width: 430px;
+    height: 90px;
+
+    display: flex;
+    gap: 25px;
+}
+
+.SectionSkills .Icon {
+    width: auto;
+    height: 90px;
+}
