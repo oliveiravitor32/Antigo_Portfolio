@@ -1,0 +1,28 @@
+.Home {
+    height: 800px;
+
+    background-image: url(../../assets/images/Banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    border-bottom: 10px solid #000;
+
+    box-sizing: border-box;
+    padding: 120px 0 0 100px;
+}
+
+.Home .Wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+.Home .Box {
+    margin-bottom: 40px;
+}
+
+.Home .Navigation {
+    display: flex;
+    justify-content: space-around;
+}
+   
