@@ -10,6 +10,11 @@
     --font-size: 10;
 }
 
+body {
+    font-family: var(--font-FiraCode);
+    font-weight: 500;
+}
+
 /*  Header  */
 header {
     width: 100vw;
@@ -26,8 +31,7 @@ header {
 header nav a, .ButtonHeader {
     color: var(--color-third);
     text-decoration: none;
-    font-family: var(--font-FiraCode);
-    font-weight: 500;
+    
     font-size: calc( var(--font-size) * 2) ;
 }
 

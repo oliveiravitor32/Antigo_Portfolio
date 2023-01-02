@@ -1,20 +1,16 @@
-button {
-    width: 170px;
-    height: 60px;
+.button {
+    display: inline-block;
+    padding: 18px 20px;
 
     font-family: var(--font-FiraCode);
-    font-weight: 500;
     font-size: 20px;
-
     background-color: var(--color-first);
 
     box-shadow: 5px 5px 0 black;
-    padding: 0;
-
-
+    transition: transform 100ms cubic-bezier(.45, .97, .68, 2.48);
 }
-button:hover {
-    width: 180px;
-    height: 65px;
+
+.button:hover {
+    transform: scale(1.08);
     cursor:grab;
 }
