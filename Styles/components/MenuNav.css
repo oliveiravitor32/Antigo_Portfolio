@@ -1,0 +1,7 @@
+.MenuNav {
+    display: flex;
+    align-items: center;
+
+    gap: 30px;
+    margin-right: 20px;
+}
