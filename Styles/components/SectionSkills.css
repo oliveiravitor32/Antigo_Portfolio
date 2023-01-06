@@ -9,7 +9,6 @@
     flex-direction: column;
     align-items: center;
 }
-
 .SectionSkills .Title {
     color: var(--color-third);
     text-shadow: none;
@@ -23,6 +22,7 @@
     font-size: calc(var(--font-size) * 2.5);
 }
 
+
 .SectionSkills .ContainerListSkills {
     width: 960px;
     height: 480px;
@@ -33,6 +33,7 @@
     flex-wrap: wrap;
 }
 
+
 .SectionSkills .ContainerSkill {
     width: 430px;
     height: 90px;
@@ -41,7 +42,36 @@
     gap: 25px;
 }
 
+.SectionSkills .SkillDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
 .SectionSkills .Icon {
     width: auto;
     height: 90px;
+}
+
+.SectionSkills .ProgressBar {
+    height: 40px;
+    width: 320px;
+
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 5px solid #000000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none;
+}
+
+.ProgressBar::-webkit-progress-bar {
+    background: #e6e6e6;
+}
+.ProgressBar::-webkit-progress-value {
+	background: var(--color-third);
+}
+
+.ProgressBar::-moz-progress-bar {
+    background: var(--color-third);
 }
