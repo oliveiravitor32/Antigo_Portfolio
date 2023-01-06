@@ -5,3 +5,9 @@
     text-shadow: 4px 4px 0px #000000;
     font-family: var(--font-PressStart2P)
 }
+
+.Title.-second {
+    color: var(--color-third);
+    text-shadow: none;
+    text-align: center;
+}
