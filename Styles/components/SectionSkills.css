@@ -11,9 +11,6 @@
 }
 
 .SectionSkills .Title {
-    color: var(--color-third);
-    text-shadow: none;
-
     margin-top: 50px;
     margin-bottom: 60px;
 }
