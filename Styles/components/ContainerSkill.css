@@ -1,0 +1,19 @@
+
+.ContainerSkill {
+    width: 430px;
+    height: 90px;
+
+    display: flex;
+    gap: 25px;
+}
+
+.Icon {
+    width: auto;
+    height: 90px;
+}
+
+.ContainerSkill .SkillDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

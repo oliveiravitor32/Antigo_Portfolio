@@ -1,0 +1,14 @@
+.Section {
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--color-fifth);
+
+    padding-top: 50px;
+
+    box-sizing: border-box;
+    border-bottom: 10px solid var(--color-third);
+}
