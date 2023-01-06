@@ -1,19 +1,4 @@
-.SectionSkills {
-    height: 800px;
-    background-color: var(--color-fifth);
 
-    border-bottom: 10px solid var(--color-third);
-    box-sizing: border-box;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.SectionSkills .Title {
-    margin-top: 50px;
-    margin-bottom: 60px;
-}
 .SectionSkills .Subtitle {
     color: var(--color-third);
     text-shadow: none;
@@ -23,6 +8,8 @@
 .SectionSkills .ContainerListSkills {
     width: 960px;
     height: 480px;
+
+    margin-top: 60px;
 
     display: flex;
     flex-direction: column;
