@@ -1,6 +1,6 @@
 .SectionSkills {
     height: 800px;
-    background-color: var(--color-first);
+    background-color: var(--color-fifth);
 
     border-bottom: 10px solid var(--color-third);
     box-sizing: border-box;
