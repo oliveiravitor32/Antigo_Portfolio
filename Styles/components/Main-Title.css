@@ -1,4 +1,4 @@
-.Title {
+.Main-Title {
     color: var(--color-first);
     font-weight: 400;
     font-size: 40px;
@@ -6,7 +6,7 @@
     font-family: var(--font-PressStart2P)
 }
 
-.Title.-second {
+.Main-Title.-second {
     color: var(--color-third);
     text-shadow: none;
     text-align: center;

@@ -1,0 +1,26 @@
+
+.Skill-Tec {
+    width: 430px;
+    height: 90px;
+
+    display:flex;
+    gap: 25px;
+
+    color: var(--color-third);
+    font-weight: 400;
+    font-size: calc(var(--font-size) * 2.5) ;
+    font-family: var(--font-PressStart2P);
+}
+
+.Icon {
+    width: auto;
+    height: 90px;
+    
+    order: -1;
+}
+
+.Skill-Tec .SkillDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
