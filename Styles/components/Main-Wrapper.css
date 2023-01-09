@@ -1,0 +1,19 @@
+.Main-Wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.Main-Wrapper.-Skills {
+    width: 960px;
+    height: 480px;
+
+    align-content: space-between;
+    gap: 40px;
+    
+    flex-wrap: wrap;
+}
+
+.Main-Wrapper.-Projects {
+    flex-direction: row;
+    gap: 150px;
+}
