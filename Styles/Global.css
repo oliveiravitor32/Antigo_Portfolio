@@ -1,0 +1,18 @@
+
+* {
+    --color-first: #FFFFFF;
+    --color-second: #C0D6DF;
+    --color-third: #212135;
+    --color-fourth: #28666E;
+    --color-fifth: #dfdff7;
+    --color-sixth: #0f0f32;
+
+    --font-PressStart2P: 'Press Start 2P', cursive, sans-serif;
+    --font-FiraCode: 'Fira Code', monospace, sans-serif;
+    --font-size: 10px;
+}
+
+body {
+    font-family: var(--font-FiraCode);
+    font-weight: 500;
+}
