@@ -32,3 +32,6 @@
     border-color: var(--color-fourth);
 }
 
+.Main-Section.-bg-color-second {
+    background-color: var(--color-second);
+}

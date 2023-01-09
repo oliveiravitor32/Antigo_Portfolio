@@ -16,3 +16,6 @@
 .Main-Title.-white {
     color: var(--color-first);
 }
+.Main-Title.-green {
+    color: var(--color-fourth);
+}
