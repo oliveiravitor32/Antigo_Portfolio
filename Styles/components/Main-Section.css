@@ -16,10 +16,6 @@
 .Main-Section.-second {
     height: 520px;
 
-    flex-direction: row;
-    justify-content: center;
-    gap: 156px;
-
     background-color: var(--color-sixth);
     border-bottom: 10px solid var(--color-fourth);
 }

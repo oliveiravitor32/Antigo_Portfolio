@@ -11,3 +11,7 @@
     text-shadow: none;
     text-align: center;
 }
+
+.Main-Title.-white {
+    color: var(--color-first);
+}
