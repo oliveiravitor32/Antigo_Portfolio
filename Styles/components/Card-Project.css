@@ -2,18 +2,22 @@
     width: 280px;
     height: 280px;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     box-shadow: 10px 10px 0px #FFFFFF;
 }
 
 .Card-Project .Icon-Project {
-    width: 280px;
-    height: 280px;
+    width: 260px;
+    height: auto;
 }
 
-.Card-Project .Icon-Project.Pokedex {
+.Card-Project.-Blue-LinearG {
     background: linear-gradient(to bottom, #2d91c2 0%,#1e528e 70%);
 }
 
-.Card-Project .Icon-Project.Portfolio {
+.Card-Project.-Gray {
     background: #525e75;
 }
