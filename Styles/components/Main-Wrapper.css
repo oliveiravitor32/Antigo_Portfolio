@@ -3,6 +3,11 @@
     flex-direction: column;
 }
 
+.Main-Wrapper.-Navigation-Buttons {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .Main-Wrapper.-Skills {
     width: 960px;
     height: 480px;
@@ -17,3 +22,4 @@
     flex-direction: row;
     gap: 150px;
 }
+

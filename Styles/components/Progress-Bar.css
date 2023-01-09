@@ -1,5 +1,5 @@
 
-.ProgressBar {
+.Progress-Bar {
     height: 40px;
     width: 320px;
 
@@ -11,13 +11,13 @@
          appearance: none;
 }
 
-.ProgressBar::-webkit-progress-bar {
+.Progress-Bar::-webkit-progress-bar {
     background: #e6e6e6;
 }
-.ProgressBar::-webkit-progress-value {
+.Progress-Bar::-webkit-progress-value {
 	background: var(--color-third);
 }
 
-.ProgressBar::-moz-progress-bar {
+.Progress-Bar::-moz-progress-bar {
     background: var(--color-third);
 }
