@@ -11,9 +11,7 @@
     padding: 120px 0 0 100px;
 }
 
-.Home .Wrapper {
-    display: flex;
-    flex-direction: column;
+.Home .Main-Wrapper {
     width: 650px;
 }
 

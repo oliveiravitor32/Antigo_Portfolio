@@ -10,6 +10,7 @@
     color: var(--color-third);
     text-shadow: none;
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .Main-Title.-white {
