@@ -22,13 +22,13 @@
 
     align-items: flex-start;
 
-    border-bottom: 10px solid #000;
+    border-color: #000;
 }
 
 .Main-Section.-second {
     height: 520px;
 
     background-color: var(--color-sixth);
-    border-bottom: 10px solid var(--color-fourth);
+    border-color: var(--color-fourth);
 }
 
