@@ -5,12 +5,22 @@
 
     display:flex;
     align-items: center;
-    gap: 25px;
+    gap: 15px;
+
 
     color: var(--color-third);
     font-weight: 400;
     font-size: calc(var(--font-size) * 2.5) ;
     font-family: var(--font-PressStart2P);
+}
+
+.Wrapper-img {
+    width: 95px;
+}
+
+.Icon {
+    max-height: 90px;
+    max-width: 93px;
 }
 
 .Skill-Tec .SkillDetails {
