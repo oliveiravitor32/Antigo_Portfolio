@@ -7,27 +7,25 @@
     box-sizing: border-box;
     border: 2px solid black;
     box-shadow: 5px 5px 0 black;
-    background-color: var(--color-first); 
-    background-repeat: no-repeat;
-    background-size: 33px 33px; 
+    background-color: var(--color-first);  
 
     transition: transform 100ms cubic-bezier(.45, .97, .68, 2.48); 
 }
 .Styled-Button-Arrow .Content {
     display: none;
 }
-
 .Styled-Button-Arrow:hover {
     transform: scale(1.08);
     cursor:grab;
 }
-
-
-/*     Arrow - Styled Border       */
 .Styled-Button-Arrow.-Left {
     margin-left: 15px;
 }
-.Styled-Button-Arrow.-Left::before {
+
+
+/*     Arrow - Styled Border       */
+
+.Styled-Button-Arrow::before {
     content: " ";
     display: inline-block;
 
@@ -39,32 +37,24 @@
     border-right: 28px solid black;
     transform: translateX(-12px);
 }
-
-.Styled-Button-Arrow.-Right::before {
-    content: " ";
-    display: inline-block;
-
-    box-sizing: border-box;
-    width: 15px;
-    height: 15px;
-    border: 15px solid transparent;
-
-    border-left: 28px solid black;
-    transform: translateX(4px);
+.Styled-Button-Arrow.-Right::before {  
+    transform: rotate(-180deg) translateX(-3px);
 }
+
 
 /*      Arrow - Background-Image
 
 .Styled-Button-Arrow.-Left {
     background-image: url(../../assets/images/Polygon-Left.png);
+    background-repeat: no-repeat;
     background-position: 4px center;
-    margin-left: 15px;
+    background-size: 33px 33px; 
 }
 .Styled-Button-Arrow.-Right {
     background-image: url(../../assets/images/Polygon-Right.png);
+    background-repeat: no-repeat;
     background-position: 8px center;
+    background-size: 33px 33px; 
 }
-
-
 
 */
