@@ -1,4 +1,4 @@
-.Card-Curso {
+.Card-Course {
     width: 220px;
     height: 140px;
     background-color: #121214;
@@ -11,7 +11,7 @@
     margin-bottom: 20px;
 }
 
-.Card-Curso::after {
+.Card-Course::after {
     content: ' ';
     display: inline-block;
     position: absolute;
@@ -31,6 +31,6 @@
       background-size: 90% 70px;
 }
 
-.Card-Curso.-Large {
+.Card-Course.-Large {
     width: 240px;
 }
