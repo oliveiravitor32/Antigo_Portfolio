@@ -1,25 +1,28 @@
 
 .Time-Line {
-    position: relative;
-    height: 215px;
-    background-color: aliceblue;
-    width: 100%;
+  position: relative;
+  height: 215px;
+  background-color: aliceblue;
+  width: 100%;
 
-        background-image: linear-gradient(black, black);
-        background-repeat: no-repeat;
-        background-size: 90% 5px;
-        background-position: center 7px;
+    background-image: linear-gradient(black, black);
+    background-repeat: no-repeat;
+    background-size: 90% 5px;
+    background-position: center 7px;
+
+  display: flex;
+  align-items: flex-end;
 }
 
 .Time-Line::before { 
-    content: '';
-    display: inline-block;
-    position: absolute;
-    left: 0;
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: 0;
     
-    width: 6%;
-    height: 5px;
-    top: 7px;
+  width: 6%;
+  height: 5px;
+  top: 7px;
 
     background-image: repeating-linear-gradient(
   to right,
@@ -33,14 +36,14 @@
     background-position: left;
 }
 .Time-Line::after { 
-    content: '';
-    display: inline-block;
-    position: absolute;
-    right: 0;
+  content: '';
+  display: inline-block;
+  position: absolute;
+  right: 0;
 
-    width: 6%;
-    height: 5px;
-    top: 7px;
+  width: 6%;
+  height: 5px;
+  top: 7px;
 
     background-image: repeating-linear-gradient(
   to left,

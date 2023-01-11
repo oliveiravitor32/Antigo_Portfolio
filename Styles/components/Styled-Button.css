@@ -16,3 +16,23 @@
     transform: scale(1.08);
     cursor:grab;
 }
+
+.Styled-Button.-Polygon {
+    width: 50px;
+    height: 50px;
+
+    margin-bottom: 50px;
+    
+    background-repeat: no-repeat;
+    background-size: 33px 33px;
+    background-position: center;
+}
+
+.Styled-Button.-Polygon.-Left {
+    background-image: url(../../assets/images/Polygon-Left.png);
+    
+}
+.Styled-Button.-Polygon.-Right {
+    background-image: url(../../assets/images/Polygon-Right.png);
+
+}
