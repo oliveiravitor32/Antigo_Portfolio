@@ -7,5 +7,5 @@
     font-family: var(--font-FiraCode);
     font-weight: 300;
     font-size: calc(var(--font-size) * 3);
-    line-height: 40px;
+    line-height: 1.3;
 }
