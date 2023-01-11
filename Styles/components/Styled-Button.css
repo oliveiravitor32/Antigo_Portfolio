@@ -21,18 +21,19 @@
     width: 50px;
     height: 50px;
 
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     
     background-repeat: no-repeat;
     background-size: 33px 33px;
-    background-position: center;
+    
 }
 
 .Styled-Button.-Polygon.-Left {
     background-image: url(../../assets/images/Polygon-Left.png);
-    
+    background-position: 4px center;
+    margin-left: 15px;
 }
 .Styled-Button.-Polygon.-Right {
     background-image: url(../../assets/images/Polygon-Right.png);
-
+    background-position: 8px center;
 }

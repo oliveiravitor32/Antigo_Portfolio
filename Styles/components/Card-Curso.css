@@ -1,0 +1,36 @@
+.Card-Curso {
+    width: 220px;
+    height: 140px;
+    background-color: #121214;
+    box-sizing: border-box;
+    border: solid 5px var(--color-fourth);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Card-Curso::after {
+    content: ' ';
+    display: inline-block;
+    position: absolute;
+     
+        width: 5px;
+        height: 44px;
+        top: 11px;
+
+          background-image: repeating-linear-gradient(
+            to top, 
+            black 5px,
+            black 12px,
+            aliceblue 10px,
+            aliceblue 20px
+      ); 
+      background-repeat: no-repeat;
+      background-size: 90% 70px;
+}
+
+.Card-Curso.-Large {
+    width: 240px;
+}

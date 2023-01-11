@@ -1,4 +1,7 @@
 
+.Article-Time-Line {
+  width: 100%;
+}
 .Time-Line {
   position: relative;
   height: 215px;
@@ -12,6 +15,7 @@
 
   display: flex;
   align-items: flex-end;
+  gap: 15px;
 }
 
 .Time-Line::before { 
