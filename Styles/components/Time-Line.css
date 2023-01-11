@@ -1,0 +1,58 @@
+
+.Time-Line {
+    position: relative;
+    height: 215px;
+    background-color: aliceblue;
+    width: 100%;
+
+        background-image: linear-gradient(black, black);
+        background-repeat: no-repeat;
+        background-size: 90% 5px;
+        background-position: center 7px;
+}
+
+.Time-Line::before { 
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    
+    width: 6%;
+    height: 5px;
+    top: 7px;
+
+    background-image: repeating-linear-gradient(
+  to right,
+  black,
+  black 10px,
+  aliceblue 10px,
+  aliceblue 20px
+);
+    background-repeat: no-repeat;
+    background-size: 90% 5px;
+    background-position: left;
+}
+.Time-Line::after { 
+    content: '';
+    display: inline-block;
+    position: absolute;
+    right: 0;
+
+    width: 6%;
+    height: 5px;
+    top: 7px;
+
+    background-image: repeating-linear-gradient(
+  to left,
+  black,
+  black 10px,
+  aliceblue 10px,
+  aliceblue 20px
+);
+    background-repeat: no-repeat;
+    background-size: 90% 5px;
+    background-position: right;
+}
+
+
+
