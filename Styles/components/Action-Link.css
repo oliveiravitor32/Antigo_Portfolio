@@ -20,3 +20,13 @@
 .Action-Link:hover {
     cursor: grab;
 }
+
+.Action-Link.-second {
+    font-weight: 500;
+    font-size: calc(var(--font-size) * 3);
+    color: #0f0f32;
+}
+
+.Action-Link.-second::before {
+   display: none;
+}
