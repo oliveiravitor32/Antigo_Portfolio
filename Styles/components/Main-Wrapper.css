@@ -29,3 +29,6 @@
     align-items: flex-end;
     gap: 50px;
 }
+.Main-Wrapper.-Courses .Hover {
+    cursor: grab;
+}
