@@ -1,4 +1,4 @@
-.Main-Paragraph {
+.Main-Description {
     display: block;
     margin: 50px auto auto auto;
     width: 90%;
@@ -8,5 +8,4 @@
     font-weight: 300;
     font-size: calc(var(--font-size) * 3);
     line-height: 40px;
-
 }
