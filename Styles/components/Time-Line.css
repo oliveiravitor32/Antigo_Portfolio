@@ -1,21 +1,16 @@
 
-.Article-Time-Line {
-  width: 100%;
-}
 .Time-Line {
-  position: relative;
+  padding: 0 20px;
   height: 215px;
-  background-color: aliceblue;
   width: 100%;
-
+  position: relative;
     background-image: linear-gradient(black, black);
     background-repeat: no-repeat;
     background-size: 90% 5px;
     background-position: center 7px;
-
   display: flex;
   align-items: flex-end;
-  gap: 15px;
+  justify-content: space-between;
 }
 /* Time-Line - Background-Image(style) */
 .Time-Line::before { 

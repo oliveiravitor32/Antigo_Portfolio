@@ -22,13 +22,3 @@
     flex-direction: row;
     gap: 150px;
 }
-
-.Main-Wrapper.-Courses {
-    height: 100%;
-    flex-direction: row;
-    align-items: flex-end;
-    gap: 50px;
-}
-.Main-Wrapper.-Courses .Hover {
-    cursor: grab;
-}
