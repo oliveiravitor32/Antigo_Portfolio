@@ -17,7 +17,7 @@
   align-items: flex-end;
   gap: 15px;
 }
-
+/* Time-Line - Background-Image(style) */
 .Time-Line::before { 
   content: '';
   display: inline-block;
@@ -60,6 +60,28 @@
     background-size: 90% 5px;
     background-position: right;
 }
+
+/* Time-Line(dashed -right -left) / Border(style)
+.Time-Line::before {
+  content: " ";
+  width: 5%;
+  height: 0;
+  position: absolute;
+  box-sizing: border-box;
+  border: 2.59px dashed black;
+  top: 7px;
+}
+.Time-Line::after {
+  content: " ";
+  width: 5%;
+  height: 0;
+  position: absolute;
+  box-sizing: border-box;
+  border: 2.59px dashed black;
+  top: 7px;
+  right: 0;
+}
+*/
 
 
 

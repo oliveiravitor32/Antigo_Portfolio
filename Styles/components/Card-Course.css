@@ -10,25 +10,6 @@
     justify-content: center;
     margin-bottom: 20px;
 }
-.Card-Course::after {
-    content: ' ';
-    display: inline-block;
-    position: absolute;
-     
-        width: 5px;
-        height: 44px;
-        top: 11px;
-
-          background-image: repeating-linear-gradient(
-            to top, 
-            black 5px,
-            black 12px,
-            aliceblue 10px,
-            aliceblue 20px
-      ); 
-      background-repeat: no-repeat;
-      background-size: 90% 70px;
-}
 .Card-Course.-Large {
     width: 240px;
 }
@@ -58,5 +39,35 @@
 .Card-Course .Course-Link:hover {
     cursor: grab;
 }
+/* Time Line - Background-Image(Style) */
+.Card-Course::after {
+    content: ' ';
+    display: inline-block;
+    position: absolute; 
+    width: 5px;
+    height: 44px;
+    top: 11px;
 
+    background-image: repeating-linear-gradient(
+        to top, 
+        black 5px,
+        black 12px,
+        aliceblue 10px,
+        aliceblue 20px
+    ); 
+    background-repeat: no-repeat;
+    background-size: 90% 70px;
+}
 
+/* Time Line - Border(Style)
+.Card-Course::before {
+    content: "";
+    height: 0;
+    width: 44px;
+    box-sizing: border-box;
+    border: 2.5px dashed black;
+    position: absolute;
+    top: 30.6px;
+    transform: rotate(90deg);
+}
+*/
