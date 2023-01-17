@@ -1,13 +1,13 @@
 
 .Time-Line {
-  padding: 0 20px;
-  height: 215px;
-  width: 100%;
   position: relative;
-    background-image: linear-gradient(black, black);
+  padding: 0 25px;
+  height: 100%;
+  width: 100%;
+    background-image: linear-gradient(var(--color-sixth), var(--color-sixth));
     background-repeat: no-repeat;
     background-size: 90% 5px;
-    background-position: center 7px;
+    background-position: center 32px;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -21,14 +21,14 @@
     
   width: 6%;
   height: 5px;
-  top: 7px;
+  top: 32px;
 
     background-image: repeating-linear-gradient(
   to right,
-  black,
-  black 10px,
-  aliceblue 10px,
-  aliceblue 20px
+  var(--color-sixth),
+  var(--color-sixth) 10px,
+  transparent 10px,
+  transparent 20px
 );
     background-repeat: no-repeat;
     background-size: 90% 5px;
@@ -42,14 +42,14 @@
 
   width: 6%;
   height: 5px;
-  top: 7px;
+  top: 32px;
 
     background-image: repeating-linear-gradient(
   to left,
-  black,
-  black 10px,
-  aliceblue 10px,
-  aliceblue 20px
+  var(--color-sixth),
+  var(--color-sixth) 10px,
+  transparent 10px,
+  transparent 20px
 );
     background-repeat: no-repeat;
     background-size: 90% 5px;

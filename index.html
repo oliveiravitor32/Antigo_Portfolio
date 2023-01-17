@@ -159,22 +159,26 @@
 
         <section class="Main-Carousel">
             <div class="Time-Line">
-                <button class="Styled-Button-Arrow -Left"><span class="Content">Voltar</span></button>            
-                <figure class="Card-Course">
-                    <figcaption class="Main-Title">2022</figcaption>
-                    <a href="https://app.rocketseat.com.br/discover" class="Course-Link">
-                            <img class="Course-Img" src="./assets/images/Rocketseat-Discover.svg"
-                                alt="Logo do curso Discover da plataforma Rocketseat">
-                    </a>
-                </figure>
-                <figure class="Card-Course -Large">
-                    <figcaption class="Main-Title">2022</figcaption>
-                    <a href="https://www.freecodecamp.org/" class="Course-Link">
-                            <img class="Course-Img" src="./assets/images/FreeCodeCamp-Logo.svg"
-                                alt="Logo da plataforma de curso FreeCodeCamp">
-                    </a>
-                </figure>
-                <button class="Styled-Button-Arrow -Right"><span class="Content">Avançar</span></button>
+                <button id="arrowButtonLeft" class="Styled-Button-Arrow -Left" onclick="moveButtonLeft()"><span class="Content">Voltar</span></button>   
+                <div class="Items">
+                    <div class="Elements">
+                        <figure class="Card-Course">
+                            <figcaption class="Main-Title">2022</figcaption>
+                            <a href="https://app.rocketseat.com.br/discover" class="Course-Link">
+                                    <img class="Course-Img" src="./assets/images/Rocketseat-Discover.svg"
+                                        alt="Logo do curso Discover da plataforma Rocketseat">
+                            </a>
+                        </figure>
+                        <figure class="Card-Course -Large">
+                            <figcaption class="Main-Title">2022</figcaption>
+                            <a href="https://www.freecodecamp.org/" class="Course-Link">
+                                    <img class="Course-Img" src="./assets/images/FreeCodeCamp-Logo.svg"
+                                        alt="Logo da plataforma de curso FreeCodeCamp">
+                            </a>
+                        </figure>
+                    </div>   
+                </div>         
+                <button id="arrowButtonRight" class="Styled-Button-Arrow -Right" onclick="moveButtonRight()"><span class="Content">Avançar</span></button>
             </div>
         </section>
         <p class="Main-Description">Atualmente estudando desenvolvimento <i lang="en">Front-End</i>,
@@ -189,5 +193,6 @@
        
     </section>
 
+    <script src="./script/components/main-carousel.js"></script>
 </body>
 </html>

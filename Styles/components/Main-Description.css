@@ -3,6 +3,7 @@
     margin: 50px auto auto auto;
     width: 90%;
     text-align: justify;
+    color: var(--color-sixth);
 
     font-family: var(--font-FiraCode);
     font-weight: 300;
