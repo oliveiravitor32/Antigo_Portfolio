@@ -35,3 +35,7 @@
 .Main-Section.-bg-color-second {
     background-color: var(--color-second);
 }
+
+.Main-Section.-bg-color-sixth {
+    background-color: var(--color-sixth)
+}

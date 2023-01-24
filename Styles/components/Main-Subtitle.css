@@ -5,3 +5,7 @@
     text-shadow: 4px 4px 0px black;
     font-family: var(--font-PressStart2P);
 }
+
+.Main-Subtitle.-FiraCode {
+    font-family: var(--font-FiraCode);
+}
