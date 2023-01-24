@@ -22,3 +22,11 @@
     flex-direction: row;
     gap: 150px;
 }
+
+.Main-Wrapper.-Footer {
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}

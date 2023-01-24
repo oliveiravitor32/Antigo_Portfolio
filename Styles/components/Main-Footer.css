@@ -1,0 +1,17 @@
+
+
+.Main-Footer {
+    height: 100px;
+    background-color: var(--color-third);
+}
+
+.Main-Footer .SocialLogo {
+    width: 45px;
+    height: 45px;
+}
+
+.Main-Footer .Action-Link {
+    display: flex;
+    align-items:center;
+    gap: 10px;
+}

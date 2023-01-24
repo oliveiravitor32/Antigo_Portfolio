@@ -30,3 +30,7 @@
 .Action-Link.-second::before {
    display: none;
 }
+
+.Action-Link.-white {
+    color: white;
+}
