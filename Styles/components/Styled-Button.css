@@ -16,3 +16,18 @@
     transform: scale(1.08);
     cursor:grab;
 }
+
+.Styled-Button.-Form {
+    height: 60px;
+    width: 100%;
+    font-size: calc(var(--font-size) * 3);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.Styled-Button.-Form:hover {
+    transform: scale(1.02);
+    cursor:grab;
+}

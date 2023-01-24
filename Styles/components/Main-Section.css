@@ -39,3 +39,6 @@
 .Main-Section.-bg-color-sixth {
     background-color: var(--color-sixth)
 }
+.Main-Section.-borderNone{
+    border: none;
+}

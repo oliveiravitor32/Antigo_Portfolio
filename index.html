@@ -197,23 +197,25 @@
        
     </section>
 
-    <section class="Main-Section -bg-color-sixth">
+    <section class="Main-Section -bg-color-sixth -borderNone">
         <h2 class="Main-Title -second -white">Contatos</h2>
 
         <form class="Main-Form" action="">
             <fieldset class="FieldsetIdentifier">
             <label class="Main-Label Main-Subtitle -FiraCode" for="PersonName">Nome
-                <input class="TextInput" id="PersonName" name="PersonName" type="text" required/>
+                <input class="TextInput" minlength="5" id="PersonName" name="PersonName" type="text" required/>
             </label>
             <label class="Main-Label Main-Subtitle -FiraCode" for="email">Email
-                    <input class="TextInput" id="email" name="email"type="email" required/>
+                    <input class="TextInput" minlength="11" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="email" name="email"type="email" required/>
             </label>
             </fieldset>
             <fieldset>
                 <label class="Main-Label Main-Subtitle -FiraCode" for="Message">Mensagem
-                    <textarea class="TextAreaInput" name="Message" id="Message" cols="30" rows="20" maxlength="200" required></textarea>
+                    <textarea class="TextAreaInput" name="Message" id="Message" cols="30" rows="20" minlength="2" maxlength="200" required></textarea>
                 </label>
             </fieldset>
+
+            <button class="Styled-Button -Form" type="submit">Enviar</button>
         </form>
     </section>
 
