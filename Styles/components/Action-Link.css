@@ -34,3 +34,14 @@
 .Action-Link.-white {
     color: white;
 }
+
+@media screen and (max-width: 970px) {
+    .Menu-Nav .Action-Link::before {
+        display: none;
+    }
+    .Menu-Nav .Action-Link{
+        color: white;
+        border-bottom: 1px solid white;
+        font-size: calc(var(--font-size) * 3);
+    }
+}

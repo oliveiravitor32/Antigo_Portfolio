@@ -18,6 +18,3 @@ body {
     font-family: var(--font-FiraCode);
     font-weight: 500;
 }
-article {
-    display: block;
-}

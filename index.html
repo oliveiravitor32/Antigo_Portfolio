@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./Styles/Global.css">
 
     <link rel="stylesheet" href="./Styles/components/Main-Header.css">
+    <link rel="stylesheet" href="./Styles/components/Icon-Menu.css">
     <link rel="stylesheet" href="./Styles/components/Logo-Icon.css">
     <link rel="stylesheet" href="./Styles/components/Menu-Nav.css">
     <link rel="stylesheet" href="./Styles/components/Action-Link.css">
@@ -57,12 +58,15 @@
 
     <header class="Main-Header">
         <img class="Logo-Icon" lang="en" src="./assets/images/Logo.png" alt="Logo da foto de perfil" tabindex="1">
-        <nav class="Menu-Nav">
+        
+        <a href="#Menu-Nav" class="Icon-Menu" onclick="ToggleMobileMenu(this)">Abrir e fechar menu</a>
+        
+        <nav id="Menu-Nav" class="Menu-Nav">
 
-            <a class='Action-Link' href="" lang="en" tabindex="2">Skills</a>
-            <a class='Action-Link' href="" tabindex="3">Projetos</a>
-            <a class='Action-Link' href="" tabindex="4">Sobre</a>
-            <a class='Action-Link' href="" tabindex="5">Contatos</a>
+            <a class='Action-Link' href="#Skills" lang="en" tabindex="2">Skills</a>
+            <a class='Action-Link' href="#Projects" tabindex="3">Projetos</a>
+            <a class='Action-Link' href="#Sobre" tabindex="4">Sobre</a>
+            <a class='Action-Link' href="#Contatos" tabindex="5">Contatos</a>
 
             <button class="Styled-Button" lang="en" tabindex="6">
                 Download CV
@@ -84,7 +88,7 @@
         </div>
     </section>
 
-    <section class="Main-Section">
+    <section id="Skills" class="Main-Section">
         <h2 class="Main-Title -second">Skills</h2>
 
         <div class="Main-Wrapper -Skills">
@@ -140,7 +144,7 @@
         </div>
     </section>
 
-    <section class="Main-Section -second">
+    <section id="Projects" class="Main-Section -second">
         <h2 class="Main-Title -second -white">Projetos</h2>
 
         <div class="Main-Wrapper -Projects">
@@ -159,7 +163,7 @@
         </div>
     </section>
 
-    <section class="Main-Section -bg-color-second">
+    <section id="Sobre" class="Main-Section -bg-color-second">
         <h2 class="Main-Title -second -green">Sobre</h2>
 
         <section class="Main-Carousel">
@@ -200,7 +204,7 @@
 
     </section>
 
-    <form class="Main-Form" action="">
+    <form id="Contatos" class="Main-Form" action="">
         <legend class="Main-Title -second -white"> Contatos</legend>
 
         <label class="Main-Label Main-Subtitle -FiraCode" for="PersonName">Nome</label>
@@ -230,7 +234,8 @@
         </div>
     </footer>
 
-    <script src="./script/components/main-carousel.js"></script>
+    <script src="./script/components/Main-Carousel.js"></script>
+    <script src="./script/components/Toggle-Mobile-Menu.js"></script>
 </body>
 
 </html>

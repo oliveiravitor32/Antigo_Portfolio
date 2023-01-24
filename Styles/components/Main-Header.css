@@ -8,3 +8,43 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 970px){
+    .Main-Header .Menu-Nav {
+        display:none;
+    }
+
+    .Main-Header .Menu-Nav.-Open {
+        position: fixed;
+        margin: 0;
+        top: 0;
+        right: 0;
+        box-sizing: border-box; 
+
+        background-color: #0f0f32;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 100%; 
+    }
+
+
+    .Main-Header .Icon-Menu.-Close {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        z-index: 1;
+        background-image: url(../../assets/images/Icon-Close.svg);
+    }
+}
+
+@media screen and (min-width:970px) {
+    .Main-Header .Icon-Menu {
+        display: none;
+    }
+}
