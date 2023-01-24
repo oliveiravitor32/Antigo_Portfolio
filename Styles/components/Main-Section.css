@@ -35,13 +35,3 @@
 .Main-Section.-bg-color-second {
     background-color: var(--color-second);
 }
-
-.Main-Section.-bg-color-sixth {
-    background-color: var(--color-sixth)
-}
-.Main-Section.-borderNone{
-    border: none;
-}
-.Main-Section.-large{
-    height: 870px;
-}

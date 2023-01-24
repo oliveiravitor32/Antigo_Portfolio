@@ -164,58 +164,58 @@
 
         <section class="Main-Carousel">
             <div class="Time-Line">
-                <button id="arrowButtonLeft" class="Styled-Button-Arrow -Left" onclick="moveButtonLeft()"><span class="Content">Voltar</span></button>   
+                <button id="arrowButtonLeft" class="Styled-Button-Arrow -Left" onclick="moveButtonLeft()"><span
+                        class="Content">Voltar</span></button>
                 <div class="Items">
                     <div class="Elements">
                         <figure id="cardCourseOne" class="Card-Course">
                             <figcaption class="Main-Title">2022</figcaption>
                             <a href="https://app.rocketseat.com.br/discover" class="Course-Link">
-                                    <img class="Course-Img" src="./assets/images/Rocketseat-Discover.svg"
-                                        alt="Logo do curso Discover da plataforma Rocketseat">
+                                <img class="Course-Img" src="./assets/images/Rocketseat-Discover.svg"
+                                    alt="Logo do curso Discover da plataforma Rocketseat">
                             </a>
                         </figure>
                         <figure id="cardCourseTwo" class="Card-Course -Large">
                             <figcaption class="Main-Title">2022</figcaption>
                             <a href="https://www.freecodecamp.org/" class="Course-Link">
-                                    <img class="Course-Img" src="./assets/images/FreeCodeCamp-Logo.svg"
-                                        alt="Logo da plataforma de curso FreeCodeCamp">
+                                <img class="Course-Img" src="./assets/images/FreeCodeCamp-Logo.svg"
+                                    alt="Logo da plataforma de curso FreeCodeCamp">
                             </a>
                         </figure>
-                    </div>   
-                </div>         
-                <button id="arrowButtonRight" class="Styled-Button-Arrow -Right" onclick="moveButtonRight()"><span class="Content">Avançar</span></button>
+                    </div>
+                </div>
+                <button id="arrowButtonRight" class="Styled-Button-Arrow -Right" onclick="moveButtonRight()"><span
+                        class="Content">Avançar</span></button>
             </div>
         </section>
         <p class="Main-Description">Atualmente estudando desenvolvimento <i lang="en">Front-End</i>,
-                adquirindo experiência com os mais diversos projetos realizados e
-                publicados no <a class="Action-Link -second" href="https://github.com/OliveiraVitor32">Github</a>
-                e plataformas de cursos como:
-                <a class="Action-Link -second" href="https://app.rocketseat.com.br/discover">Rocketseat(Discover)</a>
-                e <a class="Action-Link -second" href="https://www.freecodecamp.org/">FreeCodeCamp</a>.
-                Procurando uma oportunidade para dar o ponta pé inicial e adentrar na carreira
-                de desenvolvedor <i lang="en">Front-End</i>!
+            adquirindo experiência com os mais diversos projetos realizados e
+            publicados no <a class="Action-Link -second" href="https://github.com/OliveiraVitor32">Github</a>
+            e plataformas de cursos como:
+            <a class="Action-Link -second" href="https://app.rocketseat.com.br/discover">Rocketseat(Discover)</a>
+            e <a class="Action-Link -second" href="https://www.freecodecamp.org/">FreeCodeCamp</a>.
+            Procurando uma oportunidade para dar o ponta pé inicial e adentrar na carreira
+            de desenvolvedor <i lang="en">Front-End</i>!
         </p>
-       
+
     </section>
 
-    <section class="Main-Section -bg-color-sixth -borderNone -large">
-        <h2 class="Main-Title -second -white">Contatos</h2>
+    <form class="Main-Form" action="">
+        <legend class="Main-Title -second -white"> Contatos</legend>
 
-        <form class="Main-Form" action="">
-            <fieldset class="FieldsetIdentifier">
-                <label class="Main-Label Main-Subtitle -FiraCode" for="PersonName">Nome</label>
-                    <input class="Main-Input" minlength="5" id="PersonName" name="PersonName" type="text" required/>
-                <label class="Main-Label Main-Subtitle -FiraCode" for="email">Email</label>
-                    <input class="Main-Input" minlength="11" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="email" name="email"type="email" required/> 
-            </fieldset>
-            <fieldset>
-                <label class="Main-Label Main-Subtitle -FiraCode" for="Message">Mensagem</label>
-                    <textarea class="Main-Input -TextArea" name="Message" id="Message" minlength="2" maxlength="200" required></textarea>          
-            </fieldset>
+        <label class="Main-Label Main-Subtitle -FiraCode" for="PersonName">Nome</label>
+        <input class="Main-Input" minlength="5" id="PersonName" name="PersonName" type="text" required />
+        <label class="Main-Label Main-Subtitle -FiraCode" for="email">Email</label>
+        <input class="Main-Input" minlength="11" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="email"
+            name="email" type="email" required />
 
-            <button class="Styled-Button -Form" type="submit">Enviar</button>
-        </form>
-    </section>
+        <label class="Main-Label Main-Subtitle -FiraCode" for="Message">Mensagem</label>
+        <textarea class="Main-Input -TextArea" name="Message" id="Message" minlength="2" maxlength="200"
+            required></textarea>
+
+        <button class="Styled-Button -Form" type="submit">Enviar</button>
+    </form>
+
 
     <footer class="Main-Footer">
         <div class="Main-Wrapper -Footer">
@@ -223,14 +223,15 @@
                 Github
                 <img class="SocialLogo" src="assets/images/Github-Logo.svg" alt="">
             </a>
-    
+
             <a class="Action-Link -second -white" href="">
                 Linkedin
                 <img class="SocialLogo" src="assets/images/Linkedin-Logo.svg" alt="">
-            </a>   
-        </div>  
+            </a>
+        </div>
     </footer>
 
     <script src="./script/components/main-carousel.js"></script>
 </body>
+
 </html>
