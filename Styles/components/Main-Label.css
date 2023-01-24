@@ -1,7 +1,4 @@
 
-
-
 .Main-Label {
-    display: flex;
-    flex-direction: column;
+    line-height: 40px;
 }

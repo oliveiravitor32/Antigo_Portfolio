@@ -48,6 +48,7 @@
     <link rel="stylesheet" href="./Styles/components/Main-Form.css">
     <link rel="stylesheet" href="./Styles/components/Main-Footer.css">
     <link rel="stylesheet" href="./Styles/components/Main-Label.css">
+    <link rel="stylesheet" href="./Styles/components/Main-Input.css">
 
     <title>FiredLabs</title>
 </head>
@@ -197,22 +198,19 @@
        
     </section>
 
-    <section class="Main-Section -bg-color-sixth -borderNone">
+    <section class="Main-Section -bg-color-sixth -borderNone -large">
         <h2 class="Main-Title -second -white">Contatos</h2>
 
         <form class="Main-Form" action="">
             <fieldset class="FieldsetIdentifier">
-            <label class="Main-Label Main-Subtitle -FiraCode" for="PersonName">Nome
-                <input class="TextInput" minlength="5" id="PersonName" name="PersonName" type="text" required/>
-            </label>
-            <label class="Main-Label Main-Subtitle -FiraCode" for="email">Email
-                    <input class="TextInput" minlength="11" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="email" name="email"type="email" required/>
-            </label>
+                <label class="Main-Label Main-Subtitle -FiraCode" for="PersonName">Nome</label>
+                    <input class="Main-Input" minlength="5" id="PersonName" name="PersonName" type="text" required/>
+                <label class="Main-Label Main-Subtitle -FiraCode" for="email">Email</label>
+                    <input class="Main-Input" minlength="11" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="email" name="email"type="email" required/> 
             </fieldset>
             <fieldset>
-                <label class="Main-Label Main-Subtitle -FiraCode" for="Message">Mensagem
-                    <textarea class="TextAreaInput" name="Message" id="Message" cols="30" rows="20" minlength="2" maxlength="200" required></textarea>
-                </label>
+                <label class="Main-Label Main-Subtitle -FiraCode" for="Message">Mensagem</label>
+                    <textarea class="Main-Input -TextArea" name="Message" id="Message" minlength="2" maxlength="200" required></textarea>          
             </fieldset>
 
             <button class="Styled-Button -Form" type="submit">Enviar</button>

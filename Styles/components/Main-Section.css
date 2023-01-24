@@ -42,3 +42,6 @@
 .Main-Section.-borderNone{
     border: none;
 }
+.Main-Section.-large{
+    height: 870px;
+}

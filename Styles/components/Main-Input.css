@@ -1,0 +1,15 @@
+
+
+.Main-Input {
+    box-sizing: border-box;
+    height:50px;
+    border: 5px solid var(--color-second);
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.Main-Input.-TextArea {
+    resize: none;
+    height: 300px;
+}

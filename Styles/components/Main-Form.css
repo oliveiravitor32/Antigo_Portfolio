@@ -5,25 +5,9 @@
     height: 765px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .Main-Form .FieldsetIdentifier {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-}
-
-.Main-Form .TextInput {
-    box-sizing: border-box;
-    height:50px;
-    border: 5px solid var(--color-second);
-    font-size: 22px;
-}
-.Main-Form .TextAreaInput {
-    box-sizing: border-box;
-    border: 5px solid var(--color-second);
-    resize: none;
-    font-size: 22px;
-    height: 300px;
 }
