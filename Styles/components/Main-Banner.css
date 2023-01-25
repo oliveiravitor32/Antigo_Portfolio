@@ -1,0 +1,16 @@
+
+.Main-Banner {
+    height: 800px;
+
+    display: flex;
+    align-items: flex-start;
+
+    box-sizing: border-box;
+    border-bottom: 10px solid var(--color-third);
+
+    background-image: url(../../assets/images/Banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    padding: 120px 0 0 100px;
+}

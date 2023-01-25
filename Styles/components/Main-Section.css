@@ -13,18 +13,6 @@
     border-bottom: 10px solid var(--color-third);
 }
 
-.Main-Section.-Home{
-    background-image: url(../../assets/images/Banner.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    
-    padding: 120px 0 0 100px;
-
-    align-items: flex-start;
-
-    border-color: #000;
-}
-
 .Main-Section.-second {
     height: 520px;
 

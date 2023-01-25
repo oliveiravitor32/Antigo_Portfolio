@@ -28,9 +28,10 @@
     <link rel="stylesheet" href="./Styles/components/Action-Link.css">
     <link rel="stylesheet" href="./Styles/components/Styled-Button.css">
 
-    <link rel="stylesheet" href="./Styles/components/Main-Section.css">
+    <link rel="stylesheet" href="./Styles/components/Main-Banner.css">
     <link rel="stylesheet" href="./Styles/components/Main-Wrapper.css">
-
+    
+    <link rel="stylesheet" href="./Styles/components/Main-Section.css">
     <link rel="stylesheet" href="./Styles/components/Container-Profile.css">
     <link rel="stylesheet" href="./Styles/components/Main-Title.css">
     <link rel="stylesheet" href="./Styles/components/Main-Subtitle.css">
@@ -59,14 +60,14 @@
     <header class="Main-Header">
         <img class="Logo-Icon" lang="en" src="./assets/images/Logo.png" alt="Logo da foto de perfil" tabindex="1">
         
-        <a href="#Menu-Nav" class="Icon-Menu" onclick="ToggleMobileMenu(this)">Abrir e fechar menu</a>
+        <a href="#Menu-Nav" id="Icon-Menu" class="Icon-Menu" onclick="ToggleMobileMenu(this)">Abrir e fechar menu</a>
         
         <nav id="Menu-Nav" class="Menu-Nav">
 
-            <a class='Action-Link' href="#Skills" lang="en" tabindex="2">Skills</a>
-            <a class='Action-Link' href="#Projects" tabindex="3">Projetos</a>
-            <a class='Action-Link' href="#Sobre" tabindex="4">Sobre</a>
-            <a class='Action-Link' href="#Contatos" tabindex="5">Contatos</a>
+            <a class='Action-Link' href="#Skills" onclick="MenuIsOpen()" lang="en" tabindex="2">Skills</a>
+            <a class='Action-Link' href="#Projects" onclick="MenuIsOpen()" tabindex="3">Projetos</a>
+            <a class='Action-Link' href="#Sobre" onclick="MenuIsOpen()" tabindex="4">Sobre</a>
+            <a class='Action-Link' href="#Contatos" onclick="MenuIsOpen()" tabindex="5">Contatos</a>
 
             <button class="Styled-Button" lang="en" tabindex="6">
                 Download CV
@@ -74,7 +75,7 @@
         </nav>
     </header>
 
-    <section class="Main-Section -Home">
+    <section class="Main-Banner">
         <div class="Main-Wrapper">
             <div class="Container-Profile">
                 <h1 class="Main-Title">Vitor Oliveira</h1>
