@@ -10,7 +10,89 @@
 
     background-image: url(../../assets/images/Banner.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     
     padding: 120px 0 0 100px;
+}
+
+.Container-Profile {
+    display: inline-block;
+    
+    background-color: var(--color-third);
+    text-align: center;
+
+    padding: 42px 44px;
+    margin-bottom: 40px;
+
+    box-shadow: 10px 10px 0px #000000;
+}
+
+.Container-Profile .Main-Title {
+    margin-bottom: 28px;
+}
+
+@media screen and (max-width: 1250px) {
+    .Main-Banner {
+        height: 750px;
+    }
+    .Main-Banner .Container-Profile {
+        
+        box-shadow: 8px 8px 0px #000000;
+    }
+
+    .Container-Profile .Main-Title {
+        font-size: 35px;
+    }
+    .Container-Profile .Main-Subtitle {
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 980px) {
+    .Main-Banner {
+        padding:50px 0 0 0;
+        justify-content: center;
+        height:600px
+    }
+    .Main-Banner .Container-Profile {
+        box-shadow: 8px 8px 0px #000000;
+    }
+}
+@media screen and (max-width: 620px) {
+    .Main-Banner .Container-Profile {
+        padding: 42px 0;
+        width: 100vw;
+        box-shadow: 0px 8px 0px #000000;
+    }
+    .Container-Profile .Main-Title {
+        font-size: 34px;
+    }
+    .Container-Profile .Main-Subtitle {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:500px) {
+    .Container-Profile .Main-Title {
+        font-size: 30px;
+    }
+    .Container-Profile .Main-Subtitle {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:450px) {
+    .Container-Profile .Main-Title {
+        font-size: 26px;
+        text-shadow: 4px 4px 0px #000000;
+    }
+    .Container-Profile .Main-Subtitle {
+        font-size: 20px;
+        text-shadow: 3px 3px 0px #000000;
+    }
+}
+@media screen and (max-width:400px) {
+    .Container-Profile .Main-Title {
+        font-size: 22px;     
+    }
+    .Container-Profile .Main-Subtitle {
+        font-size: 17px;
+    }
 }
