@@ -10,7 +10,7 @@
    
 }
 
-@media screen and (max-width: 970px){
+@media screen and (max-width: 980px){
     .Main-Header .Menu-Nav {
         display:none;
     }
@@ -54,7 +54,7 @@
     }
 }
 
-@media screen and (min-width:970px) {
+@media screen and (min-width:980px) {
     .Main-Header .Icon-Menu {
         display: none;
     }
