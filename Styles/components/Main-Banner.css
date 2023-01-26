@@ -40,10 +40,10 @@
         box-shadow: 8px 8px 0px #000000;
     }
 
-    .Container-Profile .Main-Title {
+    .Main-Banner .Container-Profile .Main-Title {
         font-size: 35px;
     }
-    .Container-Profile .Main-Subtitle {
+    .Main-Banner .Container-Profile .Main-Subtitle {
         font-size: 26px;
     }
 }
@@ -61,9 +61,6 @@
     .Main-Banner {
         height:550px
     }
-    .Main-Banner .Container-Profile {
-       
-    }
 }
 @media screen and (max-width: 640px) {
     .Main-Banner {
@@ -74,18 +71,18 @@
         width: 100vw;
         box-shadow: 0px 8px 0px #000000;
     }
-    .Container-Profile .Main-Title {
+    .Main-Banner .Container-Profile .Main-Title {
         font-size: 34px;
     }
-    .Container-Profile .Main-Subtitle {
+    .Main-Banner .Container-Profile .Main-Subtitle {
         font-size: 25px;
     }
 }
 @media screen and (max-width:500px) {
-    .Container-Profile .Main-Title {
+    .Main-Banner .Container-Profile .Main-Title {
         font-size: 30px;
     }
-    .Container-Profile .Main-Subtitle {
+    .Main-Banner .Container-Profile .Main-Subtitle {
         font-size: 22px;
     }
 }
@@ -103,17 +100,17 @@
     .Main-Banner {
         height: 450px;
     }
-    .Container-Profile .Main-Title {
+    .Main-Banner .Container-Profile .Main-Title {
         font-size: 22px;     
     }
-    .Container-Profile .Main-Subtitle {
+    .Main-Banner .Container-Profile .Main-Subtitle {
         font-size: 17px;
     }
     .Main-Banner .Main-Wrapper.-Navigation-Buttons {
         flex-direction:column; 
         gap: 0px;
     }
-    .Main-Banner .Styled-Buttons {
-        box-shadow: 1px 1px 0 black;
+    .Main-Banner .Styled-Button {
+        box-shadow: none;
     }
 }
