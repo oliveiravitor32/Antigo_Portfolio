@@ -27,3 +27,56 @@
     flex-direction: column;
     gap: 16px;
 }
+
+@media screen and (max-width: 1050px) {
+    .Skill-Tec {
+        width: auto;
+    }
+}
+@media screen and (max-width: 850px) {
+    .Skill-Tec { 
+        font-size: 22px;
+    }
+    .Skill-Tec .Icon {
+        max-width: 73px;
+    }
+    .Skill-Tec .Wrapper-img {
+        width: auto;
+    }
+}
+@media screen and (max-width: 750px) {
+    .Skill-Tec { 
+        font-size: 24px;
+    }
+    .Skill-Tec .Icon {
+        max-width: 83px;
+    }
+    .Skill-Tec .Wrapper-img {
+        width: 95px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Skill-Tec { 
+        font-size: 24px;
+    }
+    .Skill-Tec .Icon {
+        max-width: 73px;
+    }
+    .Skill-Tec .Wrapper-img {
+        width: 80px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Skill-Tec { 
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 340px) {
+    .Skill-Tec .Icon {
+        max-width: 63px;
+    }
+    .Skill-Tec { 
+        font-size: 18px;
+        gap: 6px;
+    }
+}

@@ -21,3 +21,40 @@
 .Progress-Bar::-moz-progress-bar {
     background: var(--color-third);
 }
+
+@media screen and (max-width: 1050px) {
+    .Progress-Bar {
+        width: 250px;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .Progress-Bar {
+        width: 220px;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .Progress-Bar {
+        width: 280px;
+        height: 38px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Progress-Bar {
+        width: 240px;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Progress-Bar {
+        width: 200px;
+        height: 32px;
+    }
+}
+@media screen and (max-width: 340px) {
+    .Progress-Bar {
+        width: 180px;
+        height: 30px;
+    }
+}

@@ -12,6 +12,33 @@
     box-sizing: border-box;
     border-bottom: 10px solid var(--color-third);
 }
+.Main-Section .View-More-Text {
+    position: relative;
+    bottom: 2px;
+    display: none;
+    font-size: 18px;
+    border-bottom: 2px solid var(--color-third);
+}
+@media screen and (max-width: 1050px) {
+    .Main-Section {
+        height: 750px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .Main-Section {
+        height: 720px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .Main-Section .View-More-Text {
+        display: block;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Main-Section .View-More-Text {
+        font-size: 15px;
+    }
+}
 
 .Main-Section.-second {
     height: 520px;

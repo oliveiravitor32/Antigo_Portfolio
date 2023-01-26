@@ -17,6 +17,41 @@
     
     flex-wrap: wrap;
 }
+@media screen and (max-width: 1050px) {
+    .Main-Wrapper.-Skills {
+        width: 800px;
+        align-content: space-around;
+    }
+}
+@media screen and (max-width: 850px) {
+    .Main-Wrapper.-Skills {
+        width: 700px;   
+    }
+}
+@media screen and (max-width: 750px) {
+    .Main-Wrapper.-Skills {
+        box-sizing: border-box;
+        
+        border-right: solid 5px var(--color-third);
+        border-left: solid 5px var(--color-third);
+        width: auto;
+        height: 520px;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        padding: 20px 15px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Main-Wrapper.-Skills {
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Main-Wrapper.-Skills {
+        gap: 25px;
+    }
+}
+
 
 .Main-Wrapper.-Projects {
     flex-direction: row;
