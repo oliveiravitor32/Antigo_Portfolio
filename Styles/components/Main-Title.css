@@ -15,17 +15,14 @@
 @media screen and (max-width: 850px) {
     .Main-Title.-second {
         font-size: 35px;
-        margin-bottom: 40px;
     }
 }
-@media screen and (max-width: 750px) {
-    .Main-Title.-second {
-        margin-bottom: 35px;
-    }
-}
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .Main-Title.-second {
         font-size: 32px;
+    }
+    .Main-Title.-second {
+        margin-bottom: 50px;
     }
 }
 @media screen and (max-width: 400px) {

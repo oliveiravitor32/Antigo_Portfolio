@@ -39,16 +39,19 @@
         flex-wrap: nowrap;
         overflow: scroll;
         padding: 20px 15px;
+        margin-bottom: 45px;
     }
 }
 @media screen and (max-width: 500px) {
     .Main-Wrapper.-Skills {
         gap: 30px;
+        margin-bottom: 40px;
     }
 }
 @media screen and (max-width: 400px) {
     .Main-Wrapper.-Skills {
         gap: 25px;
+        margin-bottom: 0px;
     }
 }
 
