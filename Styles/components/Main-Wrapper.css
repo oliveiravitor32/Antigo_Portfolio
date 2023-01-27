@@ -54,8 +54,9 @@
 
 
 .Main-Wrapper.-Projects {
+    width: 100%;
     flex-direction: row;
-    gap: 150px;
+    justify-content: space-evenly;
 }
 
 .Main-Wrapper.-Footer {

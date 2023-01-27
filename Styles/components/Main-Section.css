@@ -46,6 +46,38 @@
     background-color: var(--color-sixth);
     border-color: var(--color-fourth);
 }
+@media screen and (max-width:1250px) {
+    .Main-Section.-second{
+        height: 480px;
+    }
+}
+@media screen and (max-width:950px) {
+    .Main-Section.-second{
+        height: 460px;
+    }
+}
+@media screen and (max-width:800px) {
+    .Main-Section.-second{
+        height: 420px;
+    }
+}
+@media screen and (max-width:650px) {
+    .Main-Section.-second{
+        height: 380px;
+    }
+}
+@media screen and (max-width:550px) {
+    .Main-Section.-second{
+        height: 330px;
+    }
+}
+@media screen and (max-width:450px) {
+    .Main-Section.-second{
+        height: 270px;
+    }
+}
+
+
 
 .Main-Section.-bg-color-second {
     background-color: var(--color-second);
