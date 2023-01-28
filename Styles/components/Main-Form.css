@@ -2,17 +2,71 @@
 
 .Main-Form {
     width: 100%;
-    height: 765px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
+    padding: 45px 0;
     box-sizing: border-box;
     background-color: var(--color-third);
-    padding: 50px 60px;
 }
 .Main-Form .Main-Input {
     margin-bottom: 20px;
+    max-width: 1400px;
 }
 .Main-Form .Main-Input.-TextArea {
     margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1500px) {
+    .Main-Form .Main-Input {
+        width: 90%;
+    }
+    .Main-Form .Styled-Button {
+        width: 90%
+    }
+    .Main-Form .Main-Label {
+        width: 90%
+    }
+}
+@media screen and (max-width: 1050px) {
+    .Main-Form .Main-Input {
+        width: 95%;
+    }
+    .Main-Form .Styled-Button {
+        width: 95%
+    }
+    .Main-Form .Main-Label {
+        width: 95%
+    }
+}
+@media screen and (max-width: 800px) {
+    .Main-Form .Main-Input {
+        font-size: 20px;
+        height:45px;
+    }
+    .Main-Form .Main-Input.-TextArea {
+        height: 200px;
+    }
+    .Main-Form .Main-Label {
+        font-size: 25px;
+        line-height: 36px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Main-Form .Main-Input {
+        font-size: 18px;
+        height:40px;
+    }
+    .Main-Form .Main-Input.-TextArea {
+        height: 120px;
+    }
+    .Main-Form .Styled-Button {
+        height: 46px;
+        font-size: 25px;
+    }
+    .Main-Form .Main-Label {
+        font-size: 22px;
+        line-height: 33px;
+    }
 }

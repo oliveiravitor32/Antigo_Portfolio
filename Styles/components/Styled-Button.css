@@ -20,6 +20,7 @@
 .Styled-Button.-Form {
     height: 60px;
     width: 100%;
+    max-width: 1400px;
     font-size: calc(var(--font-size) * 3);
     display:flex;
     justify-content: center;

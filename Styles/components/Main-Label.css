@@ -1,4 +1,9 @@
 
 .Main-Label {
+    width: 100%;
+    max-width: 1400px;
     line-height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
 }
