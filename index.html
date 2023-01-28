@@ -47,9 +47,10 @@
     <link rel="stylesheet" href="./Styles/components/Main-Description.css">
 
     <link rel="stylesheet" href="./Styles/components/Main-Form.css">
-    <link rel="stylesheet" href="./Styles/components/Main-Footer.css">
     <link rel="stylesheet" href="./Styles/components/Main-Label.css">
     <link rel="stylesheet" href="./Styles/components/Main-Input.css">
+
+    <link rel="stylesheet" href="./Styles/components/Main-Footer.css"> 
 
     <title>FiredLabs</title>
 </head>
@@ -158,13 +159,13 @@
 
             <a href="https://github.com/OliveiraVitor32/curso-Firedlabs" target="_blank">
                 <figure class="Card-Project -Gray">
-                    <img class="Icon-Project Portfolio" src="./assets/images/Icon-Project-Portfolio.png" alt="">
+                    <img class="Icon-Project Portfolio" src="./assets/images/Icon-Project-Portfolio.png" alt="Imagem do projeto Portfólio.">
                 </figure>
             </a>
 
             <a href="https://github.com/OliveiraVitor32/My-NLW-Setup" target="_blank">
                 <figure class="Card-Project -Black -NLW">
-                    <img class="Icon-Project NLW-Setup" src="./assets/images/Icon-Project-NLW.png" alt="">
+                    <img class="Icon-Project NLW-Setup" src="./assets/images/Icon-Project-NLW.png" alt="Imagem do projeto NLW-Setup.">
                 </figure>
             </a>
         </div>
@@ -211,14 +212,14 @@
 
     </section>
 
-    <form id="Contatos" class="Main-Form" action="https://submit-form.com/RX9sZCsy" tabindex="0">
+    <form id="Contatos" class="Main-Form" action="https://api.sheetmonkey.io/form/tenEHQVjcMESDiqFtviLu9" method="post" tabindex="0">
         <legend class="Main-Title -second -white">Contatos</legend>
 
         <label class="Main-Label Main-Subtitle -FiraCode" for="Name">Nome</label>
             <input class="Main-Input" minlength="5" id="Name" name="Name" type="text" required />
-        <label class="Main-Label Main-Subtitle -FiraCode" for="email">Email</label>
-            <input class="Main-Input" minlength="11" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="email"
-            name="email" type="email" required />
+        <label class="Main-Label Main-Subtitle -FiraCode" for="Email">Email</label>
+            <input class="Main-Input" minlength="11" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="Email"
+            name="Email" type="email" required />
 
         <label class="Main-Label Main-Subtitle -FiraCode" for="Message">Mensagem</label>
             <textarea class="Main-Input -TextArea" name="Message" id="Message" minlength="2" maxlength="200"
@@ -243,6 +244,7 @@
 
     <script src="./script/components/Move-Carousel.js"></script>
     <script src="./script/components/Toggle-Mobile-Menu.js"></script>
+    <script src="./script/components/Form-Config.js"></script>
 </body>
 
 </html>
