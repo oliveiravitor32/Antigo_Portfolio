@@ -12,14 +12,19 @@
     text-align: center;
     margin-bottom: 60px;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1050px) {
     .Main-Title.-second {
         font-size: 35px;
     }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 850px) {
     .Main-Title.-second {
         font-size: 32px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .Main-Title.-second {
+        font-size: 28px;
     }
     .Main-Title.-second {
         margin-bottom: 50px;
@@ -27,7 +32,7 @@
 }
 @media screen and (max-width: 400px) {
     .Main-Title.-second {
-        font-size: 30px;
+        font-size: 24px;
     }
 }
 
