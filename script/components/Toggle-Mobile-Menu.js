@@ -1,6 +1,7 @@
 
 const Menu = document.querySelector("#Menu-Nav")
 const IconMenu = document.querySelector("#Icon-Menu")
+const SkillsLink = document.querySelector("#Skills-Link") 
 
 function ToggleMobileMenu() {
     const isMenuOpen = Menu.classList.contains("-Open");
@@ -25,4 +26,23 @@ function MenuIsOpen() {
         document.body.style = "overflow: visible"
     }
     
+}
+
+function ChangeFocusToIcon(buttonFocus) {
+    const isMenuOpen = Menu.classList.contains("-Open");
+
+    if(isMenuOpen) {
+        buttonFocus.addEventListener("focusout", () => {
+            IconMenu.focus();
+        })
+    }
+}
+function ChangeFocusToFirstLink(x) {
+    const isMenuOpen = Menu.classList.contains("-Open");
+
+    if(isMenuOpen) {
+        x.addEventListener("focusout", () => {
+            SkillsLink.focus();
+        })
+    }
 }

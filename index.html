@@ -59,16 +59,16 @@
     <header class="Main-Header">
         <img class="Logo-Icon" lang="en" src="./assets/images/Logo.png" alt="Logo da foto de perfil" tabindex="1">
         
-        <a href="#Menu-Nav" id="Icon-Menu" class="Icon-Menu" onclick="ToggleMobileMenu(this)">Abrir e fechar menu</a>
+        <a href="#Menu-Nav" id="Icon-Menu" class="Icon-Menu" onfocus="ChangeFocusToFirstLink(this)" onclick="ToggleMobileMenu(this)">Abrir e fechar menu</a>
         
         <nav id="Menu-Nav" class="Menu-Nav">
 
-            <a class='Action-Link' href="#Skills" onclick="MenuIsOpen()" lang="en" tabindex="2">Skills</a>
-            <a class='Action-Link' href="#Projects" onclick="MenuIsOpen()" tabindex="3">Projetos</a>
-            <a class='Action-Link' href="#Sobre" onclick="MenuIsOpen()" tabindex="4">Sobre</a>
-            <a class='Action-Link' href="#Contatos" onclick="MenuIsOpen()" tabindex="5">Contatos</a>
+            <a id="Skills-Link" class='Action-Link' href="#Skills" onclick="MenuIsOpen()" lang="en">Skills</a>
+            <a class='Action-Link' href="#Projects" onclick="MenuIsOpen()">Projetos</a>
+            <a class='Action-Link' href="#Sobre" onclick="MenuIsOpen()">Sobre</a>
+            <a class='Action-Link' href="#Contatos" onclick="MenuIsOpen()">Contatos</a>
 
-            <button class="Styled-Button" lang="en" tabindex="6">
+            <button class="Styled-Button" lang="en" onfocus="ChangeFocusToIcon(this)">
                 Download CV
             </button>
         </nav>
@@ -88,7 +88,7 @@
         </div>
     </section>
 
-    <section id="Skills" class="Main-Section">
+    <section id="Skills" class="Main-Section" tabindex="0">
         <h2 class="Main-Title -second">Skills</h2>
         <p class="View-More-Text">Deslize para mais..</p>
         
@@ -145,7 +145,7 @@
         </div>
     </section>
 
-    <section id="Projects" class="Main-Section -second">
+    <section id="Projects" class="Main-Section -second" tabindex="0">
         <h2 class="Main-Title -second -white">Projetos</h2>
 
         <div class="Main-Wrapper -Projects">
@@ -170,7 +170,7 @@
         </div>
     </section>
 
-    <section id="Sobre" class="Main-Section -bg-color-second">
+    <section id="Sobre" class="Main-Section -bg-color-second" tabindex="0">
         <h2 class="Main-Title -second -green">Sobre</h2>
 
         <section class="Main-Carousel">
@@ -211,7 +211,7 @@
 
     </section>
 
-    <form id="Contatos" class="Main-Form" action="">
+    <form id="Contatos" class="Main-Form" action="" tabindex="0">
         <legend class="Main-Title -second -white"> Contatos</legend>
 
         <label class="Main-Label Main-Subtitle -FiraCode" for="PersonName">Nome</label>
@@ -227,7 +227,7 @@
         <button class="Styled-Button -Form" type="submit">Enviar</button>
     </form>
 
-    <footer class="Main-Footer">
+    <footer class="Main-Footer" tabindex="0">
         <div class="Main-Wrapper -Footer">
             <a class="Action-Link -second -white" href="https://github.com/OliveiraVitor32">
                 Github
