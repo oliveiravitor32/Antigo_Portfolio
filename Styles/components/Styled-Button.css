@@ -5,9 +5,12 @@
     font-family: var(--font-FiraCode);
     font-size: calc(var(--font-size) * 2);
     background-color: var(--color-first);
+    color: black;
+    text-decoration: none;
 
     border: 2px solid black;
 
+    text-align: center;
     box-shadow: 5px 5px 0 black;
     transition: transform 100ms cubic-bezier(.45, .97, .68, 2.48);
 }
