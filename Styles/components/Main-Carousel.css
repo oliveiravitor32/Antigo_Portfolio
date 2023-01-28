@@ -16,3 +16,31 @@
     justify-content: space-evenly;  
     transition: all 0.3s;
 }
+.Main-Carousel .Items .Card-Course.-Target.-FromRight {
+    right: 50%;
+    transform: translateX(50%);
+    animation: MoveFromRight 1s cubic-bezier(.49,.41,.51,1.43);
+}
+@keyframes MoveFromRight {
+    from {
+        right: 0;
+        transform: translateX(-50%);
+    } to {
+        right: 50%;
+        transform: translateX(50%);
+    }
+}
+.Main-Carousel .Items .Card-Course.-Target.-FromLeft {
+    left: 50%;
+    transform: translateX(-50%);
+    animation: MoveFromLeft 1s cubic-bezier(.49,.41,.51,1.43);
+}
+@keyframes MoveFromLeft {
+    from {
+        left: 0;
+        transform: translateX(50%);
+    } to {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

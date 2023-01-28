@@ -5,10 +5,15 @@
     box-sizing: border-box;
     border: solid 5px var(--color-fourth);
 
-    display: flex;
+    display: none;
     justify-content: center;
     margin-bottom: 30px;
 }
+.Card-Course.-Target {
+    position: absolute;
+    display: flex;
+}
+
 .Card-Course.-Large {
     width: 240px;
 }
@@ -25,7 +30,7 @@
     text-shadow: none;
     font-size: calc(var(--font-size) * 2.4);
 
-    top: 4px;
+    top: -80px;
 }
 .Card-Course .Course-Link {
     width: 100%;
@@ -47,7 +52,7 @@
     box-sizing: border-box;
     border: 2.5px dashed var(--color-sixth);
     position: absolute;
-    top: 52.6px;
+    top: -32.4px;
     transform: rotate(90deg);
 }
 /* Time Line - Background-Image(Style)

@@ -10,6 +10,7 @@
     background-color: var(--color-first);  
 
     transition: transform 100ms cubic-bezier(.45, .97, .68, 2.48); 
+    z-index: 1;
 }
 .Styled-Button-Arrow .Content {
     display: none;
@@ -18,23 +19,6 @@
     transform: scale(1.08);
     cursor:grab;
 }
-/*      Arrow - Background-Image    */
-.Styled-Button-Arrow.-Left {
-    background-image: url(../../assets/images/Polygon-Left.png);
-    background-repeat: no-repeat;
-    background-position: 4px center;
-    background-size: 33px 33px; 
-    margin-right: 20px;
-}
-.Styled-Button-Arrow.-Right {
-    background-image: url(../../assets/images/Polygon-Right.png);
-    background-repeat: no-repeat;
-    background-position: 8px center;
-    background-size: 33px 33px; 
-    margin-left: 20px;
-}
-
-/*     Arrow - Styled Border      
 .Styled-Button-Arrow::before {
     content: " ";
     display: inline-block;
@@ -50,7 +34,55 @@
 .Styled-Button-Arrow.-Right::before {  
     transform: rotate(-180deg) translateX(-3px);
 }
+@media screen and (max-width: 680px) {
+    .Styled-Button-Arrow {
+        width: 44px;
+        height: 44px;
+    }
+    .Styled-Button-Arrow::before {
+        width: 13px;
+        height: 13px;
+        border: 13px solid transparent;
+
+        border-right: 24px solid black;
+    }
+}
+@media screen and (max-width: 350px) {
+    .Styled-Button-Arrow {
+        width: 34px;
+        height: 34px;
+        box-shadow: 2px 2px 0 black;
+    }
+    .Styled-Button-Arrow::before {
+        width: 10px;
+        height: 10px;
+        border: 10px solid transparent;
+
+        border-right: 18px solid black;
+    }
+}
+
+
+
+/*      Arrow - Background-Image    
+.Styled-Button-Arrow.-Left {
+    background-image: url(../../assets/images/Polygon-Left.png);
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 33px 33px; 
+    margin-right: 20px;
+}
+.Styled-Button-Arrow.-Right {
+    background-image: url(../../assets/images/Polygon-Right.png);
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    background-size: 33px 33px; 
+    margin-left: 20px;
+}
 */
+ 
+
+
 
 
 

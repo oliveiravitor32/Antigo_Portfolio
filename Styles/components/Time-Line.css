@@ -28,8 +28,8 @@
   var(--color-sixth),
   var(--color-sixth) 10px,
   transparent 10px,
-  transparent 20px
-);
+  transparent 20px);
+
     background-repeat: no-repeat;
     background-size: 90% 5px;
     background-position: left;
@@ -49,12 +49,24 @@
   var(--color-sixth),
   var(--color-sixth) 10px,
   transparent 10px,
-  transparent 20px
-);
+  transparent 20px);
+
     background-repeat: no-repeat;
     background-size: 90% 5px;
     background-position: right;
 }
+@media screen and (max-width: 680px) {
+  .Time-Line {
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .Time-Line {
+    padding: 0 5px;
+  }
+}
+
+
 
 /* Time-Line(dashed -right -left) / Border(style)
 .Time-Line::before {

@@ -1,76 +1,43 @@
 
-const carouselElements = document.querySelector('.Elements')
-
-let timeOut = 0
-let calcTranslateX = 0
-
-const buttonRight = document.querySelector('#arrowButtonRight');
-const buttonLeft = document.querySelector('#arrowButtonLeft');
-const CardCourseOne = document.querySelector('#cardCourseOne');
-const CardCourseTwo = document.querySelector('#cardCourseTwo');
+const CardCourseOne = document.querySelector('#CardCourseOne');
+const CardCourseTwo = document.querySelector('#CardCourseTwo');
 
 // Click
 function moveButtonRight() {
-    calcTranslateX +=20
-    carouselElements.style.transform = `translateX(${calcTranslateX}px)`
-    
+    let isCardCourseOne = CardCourseOne.classList.contains("-Target")
+
+    if (isCardCourseOne) {
+        CardCourseOne.style.display = "none"
+        CardCourseOne.classList.remove("-Target","-FromRight", "-FromLeft")
+
+        CardCourseTwo.style.display = "flex"
+        CardCourseTwo.classList.add("-Target", "-FromRight")
+    } else {
+        CardCourseOne.style.display = "flex"
+        CardCourseOne.classList.add("-Target", "-FromRight") 
+
+        CardCourseTwo.style.display = "none"
+        CardCourseTwo.classList.remove("-Target", "-FromRight", "-FromLeft")
+    }
 }
 
 function moveButtonLeft() {
-    calcTranslateX -=10
-    carouselElements.style.transform = `translateX(${calcTranslateX}px)`
+    let isCardCourseOne = CardCourseOne.classList.contains("-Target")
+
+    if (isCardCourseOne) {
+        CardCourseOne.style.display = "none"
+        CardCourseOne.classList.remove("-Target", "-FromLeft", "-FromRight")
+
+        CardCourseTwo.style.display = "flex"
+        CardCourseTwo.classList.add("-Target" ,"-FromLeft")
+    } else {
+        CardCourseOne.style.display = "flex"
+        CardCourseOne.classList.add("-Target","-FromLeft") 
+
+        CardCourseTwo.style.display = "none"
+        CardCourseTwo.classList.remove("-Target", "-FromLeft", "-FromRight")
+    }
 }
-
-
-// Hold mouse
-buttonRight.addEventListener("mousedown", () => {
-    
-    timeOut = setInterval(() => {
-        calcTranslateX +=10
-        carouselElements.style.transform = `translateX(${calcTranslateX}px)`;     
-      }, 100);
-      
-})
-buttonRight.addEventListener("mouseup", () => {
-    clearInterval(timeOut);
-});
-
-buttonLeft.addEventListener("mousedown", () => {
-    
-    timeOut = setInterval(() => {
-        calcTranslateX -=10
-        carouselElements.style.transform = `translateX(${calcTranslateX}px)`;
-      }, 100);
-    
-})
-buttonLeft.addEventListener("mouseup", () => {
-    clearInterval(timeOut);
-});
-
-// Hold mobile touch
-buttonRight.addEventListener("touchstart", () => { 
-    timeOut = setInterval(() => {
-        calcTranslateX +=10
-        carouselElements.style.transform = `translateX(${calcTranslateX}px)`;
-      }, 100);
-})
-buttonRight.addEventListener("touchend", () => {
-    clearInterval(timeOut);
-});
-
-buttonLeft.addEventListener("touchstart", () => {
-    
-    timeOut = setInterval(() => {
-        calcTranslateX -=10
-        carouselElements.style.transform = `translateX(${calcTranslateX}px)`;
-      }, 100);
-})
-buttonLeft.addEventListener("touchend", () => {
-    clearInterval(timeOut);
-});
-
-
-
 
 
 
