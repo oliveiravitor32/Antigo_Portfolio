@@ -1,17 +1,35 @@
 
-
 .Main-Footer {
-    height: 100px;
+    padding: 35px 0;
     background-color: var(--color-sixth);
 }
-
 .Main-Footer .SocialLogo {
     width: 45px;
     height: 45px;
 }
-
 .Main-Footer .Action-Link {
     display: flex;
     align-items:center;
     gap: 10px;
+}
+@media screen and (max-width: 1050px) {
+    .Main-Footer .SocialLogo {
+        width: 40px;
+        height: 40px;
+    }
+    .Main-Footer .Action-Link {
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Main-Footer .SocialLogo {
+        width: 30px;
+        height: 30px;
+    }
+    .Main-Footer .Action-Link {
+        font-size: 18px;
+    }
+    .Main-Footer {
+        padding: 25px 0;
+    }
 }
