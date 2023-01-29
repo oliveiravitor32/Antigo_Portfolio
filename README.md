@@ -4,3 +4,5 @@ Página responsiva com componentes e implementações de animações via CSS e J
 Com formulário funcional e download CV(currículo).
 
 Preview funcional do site no Github Pages: https://oliveiravitor32.github.io/curso-Firedlabs/
+
+Status: Finalizado!
