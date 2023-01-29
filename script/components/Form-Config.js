@@ -7,6 +7,8 @@ const handleSubmit = (event) => {
     const Name = document.querySelector("#Name")
     const Email = document.querySelector("#Email")
     const Message = document.querySelector("#Message")
+    const FullDate = new Date().toString()
+    // const SimpleDate = new Date().toLocaleString("pt-BR") 
 
     fetch("https://api.sheetmonkey.io/form/tenEHQVjcMESDiqFtviLu9", {
 
@@ -15,7 +17,7 @@ const handleSubmit = (event) => {
             "Accept": "application/json",
             "Content-Type": "application/json"
         },
-        body: JSON.stringify({ Name: Name.value, Email: Email.value, Message: Message.value })
+        body: JSON.stringify({ Name: Name.value, Email: Email.value, Message: Message.value, Date: FullDate})
     }).then( () => {
         Name.value = "";
         Email.value = "";
