@@ -10,5 +10,5 @@ Status: Finalizado!
 
 Feito por Vitor Oliveira 👋🏽 Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vitor-oliveira-27a01525b//)](https://www.linkedin.com/in/vitor-oliveira-27a01525b/) 
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:oliveiravitor327@gmail.com)](mailto:oliveiravitor327@gmail.com)
+[![Linkedin Badge](https://img.shields.io/badge/-Vitor-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vitor-oliveira-27a01525b//)](https://www.linkedin.com/in/vitor-oliveira-27a01525b/) 
+[![Gmail Badge](https://img.shields.io/badge/-oliveiravitor327@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:oliveiravitor327@gmail.com)](mailto:oliveiravitor327@gmail.com)
