@@ -1,0 +1,17 @@
+.Secondary-Section {
+    background-color: var(--color-third);
+    padding-top: 50px;
+
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1050px) {
+    .Secondary-Sectionn {
+        padding-top: 45px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .Secondary-Section {
+        padding-top: 40px;
+    }
+}

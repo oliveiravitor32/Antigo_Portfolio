@@ -1,6 +1,7 @@
 .Card-Project {
     width: 280px;
     height: 280px;
+    margin-top: 6%;
 
     display: flex;
     align-items: center;

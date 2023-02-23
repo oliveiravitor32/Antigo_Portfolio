@@ -38,6 +38,7 @@
     <link rel="stylesheet" href="./Styles/components/Skill-Tec.css">
     <link rel="stylesheet" href="./Styles/components/Progress-Bar.css">
 
+    <link rel="stylesheet" href="./Styles/components/Project-Info.css">
     <link rel="stylesheet" href="./Styles/components/Card-Project.css">
 
     <link rel="stylesheet" href="./Styles/components/Main-Carousel.css">
@@ -46,13 +47,14 @@
     <link rel="stylesheet" href="./Styles/components/Card-Course.css">
     <link rel="stylesheet" href="./Styles/components/Main-Description.css">
 
+    <link rel="stylesheet" href="./Styles/components/Secondary-Section.css">
     <link rel="stylesheet" href="./Styles/components/Main-Form.css">
     <link rel="stylesheet" href="./Styles/components/Main-Label.css">
     <link rel="stylesheet" href="./Styles/components/Main-Input.css">
 
     <link rel="stylesheet" href="./Styles/components/Main-Footer.css"> 
 
-    <title>FiredLabs</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
@@ -77,10 +79,10 @@
 
     <section class="Main-Banner">
         <div class="Main-Wrapper">
-            <div class="Container-Profile">
+            <article class="Container-Profile">
                 <h1 class="Main-Title">Vitor Oliveira</h1>
-                <h2 class="Main-Subtitle" lang="en">FrontEnd Developer</h2>
-            </div>
+                <p class="Main-Subtitle" lang="en">FrontEnd Developer</p>
+            </article>
 
             <div class="Main-Wrapper -Navigation-Buttons">
                 <a class="Styled-Button" download href="./assets/others/Curriculo.pdf" lang="en" tabindex="7">Download CV</a>
@@ -149,25 +151,34 @@
     <section id="Projects" class="Main-Section -second" tabindex="0">
         <h2 class="Main-Title -second -white">Projetos</h2>
 
-        <div class="Main-Wrapper -Projects">
+     <div class="Main-Wrapper -Projects">
+        <article class="Project-Info">
+            <h2 class="Project-Title">Pokédex</h2>
             <a href="https://github.com/OliveiraVitor32/pokedex" target="_blank">
                 <figure class="Card-Project -Blue-LinearG">
                     <img class="Icon-Project Pokedex" src="./assets/images/Icon-Project-Pokedex.webp"
                         alt="Ícone de pokébola do projeto Pokédex">
                 </figure>
             </a>
+        </article>
 
-            <a href="https://github.com/OliveiraVitor32/curso-Firedlabs" target="_blank">
+        <article class="Project-Info">
+            <h2 class="Project-Title">Portfólio - ATUAL</h2>
+            <a href="https://oliveiravitor32.github.io/Portfolio" target="_blank">
                 <figure class="Card-Project -Gray">
                     <img class="Icon-Project Portfolio" src="./assets/images/Icon-Project-Portfolio.png" alt="Imagem do projeto Portfólio.">
                 </figure>
             </a>
-
+        </article>
+           
+        <article class="Project-Info">
+            <h2 class="Project-Title">NLW-Setup</h2>
             <a href="https://github.com/OliveiraVitor32/My-NLW-Setup" target="_blank">
                 <figure class="Card-Project -Black -NLW">
                     <img class="Icon-Project NLW-Setup" src="./assets/images/Icon-Project-NLW.png" alt="Imagem do projeto NLW-Setup.">
                 </figure>
             </a>
+        </article>
         </div>
     </section>
 
@@ -212,21 +223,25 @@
 
     </section>
 
-    <form id="Contatos" class="Main-Form" action="https://api.sheetmonkey.io/form/tenEHQVjcMESDiqFtviLu9" method="post" tabindex="0">
-        <legend class="Main-Title -second -white">Contatos</legend>
-
-        <label class="Main-Label Main-Subtitle -FiraCode" for="Name">Nome</label>
-            <input class="Main-Input" minlength="5" id="Name" name="Name" type="text" required />
-        <label class="Main-Label Main-Subtitle -FiraCode" for="Email">Email</label>
-            <input class="Main-Input" minlength="11" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="Email"
-            name="Email" type="email" required />
-
-        <label class="Main-Label Main-Subtitle -FiraCode" for="Message">Mensagem</label>
-            <textarea class="Main-Input -TextArea" name="Message" id="Message" minlength="2" maxlength="200"
-            required></textarea>
-
-        <button class="Styled-Button -Form" type="submit">Enviar</button>
-    </form>
+    <section class="Secondary-Section">
+        <h2 class="Main-Title -second -white">Contatos</h2>
+        
+        <form id="Contatos" class="Main-Form" action="https://api.sheetmonkey.io/form/tenEHQVjcMESDiqFtviLu9" method="post" tabindex="0">  
+            
+            <label class="Main-Label Main-Subtitle -FiraCode" for="Name">Nome</label>
+                <input class="Main-Input" minlength="5" id="Name" name="Name" type="text" required />
+            <label class="Main-Label Main-Subtitle -FiraCode" for="Email">Email</label>
+                <input class="Main-Input" minlength="11" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="Email"
+                name="Email" type="email" required />
+    
+            <label class="Main-Label Main-Subtitle -FiraCode" for="Message">Mensagem</label>
+                <textarea class="Main-Input -TextArea" name="Message" id="Message" minlength="2" maxlength="200"
+                required></textarea>
+    
+            <button class="Styled-Button -Form" type="submit">Enviar</button>
+        </form>
+    </section>
+    
 
     <footer class="Main-Footer" tabindex="0">
         <div class="Main-Wrapper -Footer">

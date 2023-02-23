@@ -1,0 +1,26 @@
+.Project-Info .Project-Title {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 1050px) {
+    .Project-Info .Project-Title {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .Project-Info .Project-Title {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .Project-Info .Project-Title {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Project-Info .Project-Title {
+        font-size: 8px;
+    }
+}
